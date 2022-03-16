@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>button.html</title>
+  <style>
+    .subscribe-button {
+      background-color: rgb(201, 8, 8);
+      color: white;
+      border: none;
+      height: 36px;
+      width: 100px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 8px;
+      transition: opacity 1s;
+      vertical-align: top;
+    }
+
+    .subscribe-button:hover {
+      opacity: 0.3;
+    }
+
+    .subscribe-button:active {
+      opacity: 0.5;
+    }
+
+    .join-button {
+      background-color: white;
+      color: rgba(16, 140, 211, 0.945);
+      border-color: rgba(16, 126, 177, 0.89);
+      border-style: solid;
+      border-width: 1px;
+      height: 36px;
+      width: 63px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 8px;
+      transition: background-color 1s,
+        color 1s;
+    }
+
+    .join-button:hover {
+      background-color: rgba(16, 140, 211, 0.945);
+      color: white;
+      border: none;
+
+    }
+
+    .join-button:active {
+      opacity: 0.7;
+    }
+
+    .tweet-button {
+      background-color: rgb(2, 158, 255);
+      color: white;
+      border: none;
+      height: 37px;
+      width: 80px;
+      border-radius: 18px;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      outline: none;
+      text-transform: uppercase;
+    }
+
+    .tweet-button:hover {
+      background-color: #2EE59D;
+      box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+      color: #fff;
+      transform: translateY(5px);
+    }
+  </style>
+</head>
+
+<body>
+  <button class="subscribe-button">Subscribe</button>
+  <button class="join-button">Join</button>
+  <button class="tweet-button">Tweet</button>
+</body>
